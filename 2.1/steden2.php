@@ -25,7 +25,7 @@
         <?php
         require_once "config.php";
         include "getdata.php";
-        foreach (getdata("select * from steden","steden") as $row) {
+        foreach (getdata("select * from image","image") as $row) {
             print "<div class='col-sm-4'>";
             print "<h3>" . $row["img_title"] . "</h3>";
             print "<p>" . $row["img_width"] . " x " . $row["img_height"];

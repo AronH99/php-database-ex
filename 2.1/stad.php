@@ -30,7 +30,7 @@
 
 <?php
 include "getdata.php";
-foreach (getData("select * from steden where img_id = " . $_GET["img_id"], "steden") as $detail){
+foreach (getData("select * from image where img_id = " . $_GET["img_id"], "image") as $detail){
     print "<h1>" . $detail["img_title"] . "</h1>";
     print "<p>filename: " . $detail["img_filename"] . "</p>";
     print "<p>" . $detail["img_width"] . " x " . $detail["img_height"] . " pixels</p>";
