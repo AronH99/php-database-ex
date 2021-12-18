@@ -34,7 +34,7 @@ foreach (getData("select * from steden where img_id = " . $_GET["img_id"], "sted
     print "<h1>" . $detail["img_title"] . "</h1>";
     print "<p>filename: " . $detail["img_filename"] . "</p>";
     print "<p>" . $detail["img_width"] . " x " . $detail["img_height"] . " pixels</p>";
-    print "<img src=img/" . $detail["img_filename"]. "><br>";
+    print "<img src=../images/" . $detail["img_filename"]. "><br>";
     print "<a href='steden2.php'>Terug naar overzicht</a>";
 }
 ?>

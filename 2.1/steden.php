@@ -34,7 +34,7 @@
             <h3>$name</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            <img src=./images/$afbeelding width=350px height=350px'>
+            <img src=../images/$afbeelding width=350px height=350px'>
         </div>";
             $lus++;
         }

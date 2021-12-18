@@ -31,7 +31,7 @@
             print "<p>" . $row["img_width"] . " x " . $row["img_height"];
             print "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>";
             print "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>";
-            print "<img src=images/". $row["img_filename"]. " width='300px'" . "height='200px' ></img>";
+            print "<img src=../images/". $row["img_filename"]. " width='300px'" . "height='200px' ></img>";
             print "<br><a href='stad.php?img_id=". $row["img_id"]. "'" .">meer info </a>";
             print "</div>";
         }
